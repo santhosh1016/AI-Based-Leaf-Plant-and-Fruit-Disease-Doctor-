@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    <color name="black">#FF000000</color>-->
+<!--    <color name="white">#FFFFFFFF</color>-->
+
+    <color name="splash_green">#3B9C63</color>
+    <color name="deep_leaf">#2F704F</color>
+    <color name="button_orange">#FFA726</color>
+    <color name="background_beige">#F3F1ED</color>
+<!--    <color name="text_dark">#1C1C1C</color>-->
+
+
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+
+    <!-- Backgrounds -->
+    <color name="bg_light">#F4FAF7</color>
+    <color name="bg_card_green">#4CAF50</color>
+    <color name="bg_card_orange">#FF9800</color>
+
+    <color name="text_dark">#121212FF</color>
+    <color name="text_gray">#666666FF</color>
+
+    <color name="t1" >#52BA55FF</color>
+    <color name="t2" >#888888</color>
+
+    <!-- Accents for auth screens -->
+    <color name="accent_green">#2E7D32</color>
+    <color name="accent_green_light">#43A047</color>
+
+
+</resources>

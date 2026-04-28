@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "991056930389",
+    "firebase_url": "https://bigbubble-1593100265668.firebaseio.com",
+    "project_id": "bigbubble-1593100265668",
+    "storage_bucket": "bigbubble-1593100265668.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991056930389:android:dadfd435d2ded1db4a56dc",
+        "android_client_info": {
+          "package_name": "com.app.diseaseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "991056930389-bkdf74h5joifu2mdinvbmji7hjbti1ls.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnnU7EB9E2RSStJNQVUfQffZISak18TKw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "991056930389-79a3u8bj3c0hq9ouojev7bnfqr45f69s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

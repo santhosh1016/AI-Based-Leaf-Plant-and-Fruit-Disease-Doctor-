@@ -29,8 +29,7 @@ public class GoogleSuggestionFetcher {
 
 
 
-//    private static final String API_KEY = "AIzaSyA7nxMfPXBFdT-wEuQrDxkSqkhheorxIrU";
-    private static final String API_KEY = "AIzaSyA7nxMfPXBFdT-wEuQrDxkSqkhheorxIrU";
+    private static final String API_KEY = "Your_API_Key";
     private static final String CX = "6369a1d9bd93f409b";
     private static final String API_URL = "https://www.googleapis.com/customsearch/v1?q=%s&key=%s&cx=%s";
     private static String lastQuery = null;

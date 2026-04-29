@@ -22,11 +22,9 @@ import org.json.JSONObject;
 
 public class GeminiFetcher {
 
-//    private static final String API_KEY = "AIzaSyApwkIV1jUDxvo-yrbWIpT34Kiud7Qu2iU";
-    private static final String API_KEY = "AIzaSyApwkIV1jUDxvo-yrbWIpT34Kiud7Qu2iU";
+    private static final String API_KEY = "Your_API_Key";
 
-    private static final String API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AIzaSyApwkIV1jUDxvo-yrbWIpT34Kiud7Qu2iU";
-   // private static final String API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=" + API_KEY;
+    private static final String API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=Your_API_Key";
 
     public static void fetchFromGemini(Context context, String diseaseName, TextView outputTextView, ProgressBar progressBar, Button retryButton, ImageView imageView, Bitmap fallbackImage) {
         String targetLanguage = LanguageManager.getSavedLanguage(context).startsWith("hi") ? "Hindi" : "English";

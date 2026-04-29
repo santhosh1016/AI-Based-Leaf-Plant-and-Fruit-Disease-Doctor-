@@ -24,12 +24,9 @@ public class GeminiVisionHelper {
     public static void identifyDiseaseFromImage(Bitmap image, String languageCode, Callback callback) {
         new Thread(() -> {
             try {
-              //  URL url = new URL("https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key=AIzaSyApwkIV1jUDxvo-yrbWIpT34Kiud7Qu2iU");
-              //  URL url = new URL("https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key=AIzaSyApwkIV1jUDxvo-yrbWIpT34Kiud7Qu2iU");
-
-                URL url = new URL("https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AIzaSyCmeQGNrzk514q_qAu-fb95CjooQneZ7qM");
-              //  URL url = new URL("https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AIzaSyCOdDa7FJ2XVFDQuMV327vnybeubwB34io");
-
+              
+                URL url = new URL("https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=Your_API_Key");
+              
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestMethod("POST");
                 conn.setRequestProperty("Content-Type", "application/json");

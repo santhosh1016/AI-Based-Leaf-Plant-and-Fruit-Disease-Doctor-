@@ -100,7 +100,7 @@ public class GeminiVisionHelper {
     public static void generateContentFromDiseaseName(String diseaseName, String languageCode, Callback callback) {
         new Thread(() -> {
             try {
-                URL url = new URL("https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AIzaSyApwkIV1jUDxvo-yrbWIpT34Kiud7Qu2iU");
+                URL url = new URL("https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=Your_API_Key");
 
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestMethod("POST");
@@ -183,7 +183,7 @@ public class GeminiVisionHelper {
     public static void generateContentFromQuery(String query, String languageCode, Callback callback) {
         new Thread(() -> {
             try {
-                URL url = new URL("https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AIzaSyApwkIV1jUDxvo-yrbWIpT34Kiud7Qu2iU");
+                URL url = new URL("https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=Your_API_Key");
 
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestMethod("POST");
